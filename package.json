@@ -1,6 +1,6 @@
 {
-  "name": "@mapbox/mapbox-gl-directions",
-  "version": "4.1.1",
+  "name": "@critesjm/mapbox-gl-directions",
+  "version": "1.0.0",
   "description": "A mapboxgl plugin for the Mapbox Directions API",
   "main": "./src/index.js",
   "browserify": {
@@ -17,7 +17,7 @@
     ]
   },
   "peerDependencies": {
-    "mapbox-gl": "^0.41.0 <2.0.0"
+    "mapbox-gl": ">=2.0.0"
   },
   "scripts": {
     "prepublish": "npm run build",
